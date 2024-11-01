@@ -1,0 +1,197 @@
+.hidden, 
+.collapsed,
+#cart_block h4, 
+.block_hidden_only_for_screen {
+    display: none;
+}
+
+.wprestashop.userinfo{
+    min-height: 50px;
+}
+#header_user p{
+    margin-bottom: 5px;
+}
+#header_user span {
+    font-weight: bold;
+}
+#header_user ul {
+    float: right;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+#header_user #shopping_cart, 
+#header_user #your_account {
+    font-size: 0.9em;
+}
+
+#header_user li {
+    float: right;
+    line-height: 2em;
+    margin-left: 0.5em;
+    white-space: nowrap;
+}
+
+#header_user #shopping_cart a, 
+#header_user #your_account a {
+    background-position: left top;
+    background-repeat: no-repeat;
+    height: 20px;
+    padding: 2px 0 4px 26px;
+    text-decoration: none;
+}
+#header_user #shopping_cart a {
+    background-image: url("../images/cart.gif");
+}
+#header_user #your_account a {
+    background-image: url("../images/my-account.gif");
+}
+#header_user span.hidden{
+    display: none;
+}
+/* Cart */
+#cart_block .block_content {
+    padding: 6px 6px 2px;
+}
+#cart_block #cart_block_no_products {
+    margin: 0.5em 0;
+}
+#cart_block p {
+    clear: both;
+}
+#cart_block p#cart-prices {
+    border-top: 1px solid white;
+    clear: both;
+    display: block;
+    margin-bottom: 2em;
+    margin-top: 8px;
+    padding-top: 0.4em;
+}
+#cart_block p#cart-buttons {
+    height: 1.6em;
+    margin: 0 -0.3em;
+}
+#cart_block dl {
+    font-size: 0.9em;
+}
+#cart_block dd {
+    font-style: italic;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+#cart_block dt {
+    text-align: right;
+}
+#cart_block p#cart-buttons a.button_small {
+    background: url("../images/button-small.png") no-repeat scroll left top transparent;
+    color: #000000;
+    float: left;
+    font-size: 11px;
+    font-weight: bold;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: none;
+    width: 60px;
+}
+#cart_block p#cart-prices {
+    border-top: 1px solid #000000;
+    clear: both;
+    display: block;
+    margin-bottom: 2em;
+    margin-top: 8px;
+    padding-top: 0.4em;
+}
+#cart_block a.ajax_cart_block_remove_link {
+    background: url("../images/delete.gif") no-repeat scroll left bottom transparent;
+    display: block;
+    float: right;
+    font-size: 0;
+    height: 13px;
+    margin-left: 6px;
+    width: 11px;
+}
+#cart_block p#cart-buttons a#button_order_cart {
+    background: url("../images/button-medium_exclusive.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    float: right;
+    font-size: 11px;
+    font-weight: bold;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    width: 120px;
+}
+#cart_block dl dt a, 
+#cart_block dl dt span.quantity-formated {
+    float: left;
+}
+#cart_block dl span.quantity-formated {
+    padding-right: 1px;
+}
+#cart_block dl dt a {
+    font-weight: bold;
+}
+#cart_block dl dt a, 
+#cart_block dl dt span.quantity-formated {
+    float: left;
+}
+#cart_block dl span.price {
+    float: none;
+    font-weight: normal;
+}
+#cart_block p span {
+    clear: right;
+    float: left;
+    text-align: right;
+}
+
+ul.wproducts{
+    margin: 0px;
+    padding: 0;
+    float: left;
+    width: 100%;
+}
+ul.wproducts li.wproduct-row{
+    border-bottom: 1px solid #DDDDDD;
+    padding: 5px 0;
+    width: 100%;
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+ul.wproducts li.wproduct-row div.wprestashop-desc{
+    clear: both;
+}
+ul.wproducts li a{
+    display: block;
+    line-height: 20px;
+}
+ul.wproducts li span.wproduct-price{
+    background: none repeat scroll 0 0 #FFEA00;
+    border-radius: 5px 5px 5px 5px;
+    color: #000000;
+    padding: 2px 8px;
+}
+ul.wproducts li img{
+    border: 1px solid #777777;
+    border-radius: 2px 2px 2px 2px;
+    float: left;
+    margin: 3px;
+    padding: 2px;
+    width: 50px;
+}
+p.wprestashop-all{
+    font-weight: bold;
+    margin: 5px 0;
+    float: left;
+    text-align: right;
+    width: 100%;
+}
+.clr{
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    clear: both;
+    overflow: hidden;
+}

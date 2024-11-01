@@ -1,0 +1,10 @@
+.wloadding{
+    min-height: 50px;
+    background: url("../images/wpspin_light.gif") no-repeat scroll center center #DDDDDD;
+    min-height: 50px;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="cuong" />
+	<title>Untitled 1</title>
+    <link type="text/css" href="jquery.wconfirm.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.4.4.js"></script>
+    <script type="text/javascript" src="jquery.effects-1.8.17.js"></script>
+    <script type="text/javascript" src="jquery.wconfirm.js"></script>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery("a").click(function(){
+                jQuery("body").wconfirm({
+                    showclose:      true,
+                    width:          "500px",
+                    showheader:     true,
+					message: 		jQuery('.hihi').html(),
+                    showok:         true,
+                    ok:             "OK",
+                    title:          "Title",
+					callbackFinish: function(){
+						jQuery('.box-message').effect("clip", { mode:'show' });
+					}
+                });
+                return false;
+            });
+            
+        });
+    </script>
+</head>
+<body>
+    <a href="#">click</a>
+	<div class="hihi">
+		<p>At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. Select a tutorial from the menu to the left.</p>
+        <p>At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. Select a tutorial from the menu to the left.</p>
+	</div>
+</body>
+</html>

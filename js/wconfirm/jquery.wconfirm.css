@@ -1,0 +1,191 @@
+.box-clr{
+    clear: both;
+}
+.box-message{
+    position: fixed;
+    width:500px;
+    top:20%;
+	z-index:999;
+    left:30%;
+}
+.box-message .box-header{
+    width:100%;
+    clear:both;
+    position: relative;
+    height:46px;
+}
+.box-message .box-header.no-header{
+    height:26px;
+}
+span.box-header-left-top-left{
+    float:left;
+    width:12px;
+    height:46px;
+    background:url(top-left.png) no-repeat top left;
+    position:absolute;
+    left:0;
+    top:0;
+}
+span.box-header-left-top-right{
+    background:url("top-right.png") no-repeat scroll right top transparent;
+    float:right;
+    height:46px;
+    position:absolute;
+    right:0;
+    top:0;
+    width:12px;
+}
+span.box-header-left-top-left.no-header-left{
+    background:url(top-left-h.png) no-repeat top left;
+    height:26px;
+}
+
+
+span.box-header-left-top-right.no-header-right{
+    background:url("top-right-h.png") no-repeat scroll right top transparent;
+    height:26px;
+}
+.box-header-left-top-center{
+    background:url("top-center.png") repeat-x scroll left top transparent;
+    color:#414951;
+    font-size:20px;
+    height:36px;
+    line-height:36px;
+    margin:0 12px;
+    padding:10px 10px 0;
+    position:relative;
+    text-shadow:0 1px 0 #CFE1F3;
+    text-transform:uppercase;
+}
+.box-header-left-top-center.no-header-center{
+    background:url("top-center-h.png") repeat-x scroll left top transparent;
+    height:16px;
+}
+.box-center{
+    width:100%;
+    float:left;
+    clear: both;
+}
+.box-header-left-center-left{
+    float:left;
+    width:10px;
+    height:20px;
+    background:url(center-left.png) repeat-y top left;
+}
+.box-header-left-center-right{
+    float:right;
+    width:9px;
+    height:20px;
+    background:url(center-left.png) repeat-y top left;
+}
+.box-center-center{
+    background:none repeat scroll 0 0 #F9F9F9;
+    font-family:arial;
+    font-size:18px;
+    line-height:20px;
+    margin:0 9px 0 10px;
+    padding:10px 15px;
+    text-align: center;
+	min-height:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box-footer{
+    width:100%;
+    clear:both;
+    height:46px;
+    position: relative;
+}
+.box-header-left-footer-left{
+    background:url("footer-left.png") no-repeat scroll left top transparent;
+    bottom:0;
+    float:left;
+    height:46px;
+    left:0;
+    position:absolute;
+    width:10px;
+}
+.box-header-left-footer-right{
+    float:right;
+    width:10px;
+    bottom:0;
+    height:46px;
+    background:url(footer-right.png) no-repeat top right;
+    right:0;
+    position:absolute;
+}
+.box-header-left-footer-center{
+    background:url("footer-center.png") repeat-x scroll left top transparent;
+    height:32px;
+    margin:0 10px;
+    padding:4px 10px 10px;
+    position:relative;
+}
+span.edialog-ok,
+span.edialog-cancel{
+    margin-left: 5px;
+    background:none repeat scroll 0 0 #CC3333;
+    border-color:#FF6666 #663333 #663333 #FF6666;
+    border-style:solid;
+    border-width:1px;
+    color:#FFFFFF;
+    cursor:pointer;
+    float:right;
+    padding:2px 20px;
+}
+.closeme{
+    background:url("edialog-simple-close.png") no-repeat scroll 0 0 transparent;
+    display:block;
+    height:16px;
+    position:absolute;
+    right:20px;
+    text-decoration:none;
+    top:20px;
+    width:15px;
+    z-index:99;
+    cursor:pointer;
+}
+.closeme.hover-close{
+    background:url("edialog-simple-close.png") no-repeat scroll 0 100% transparent;
+}
+
+
+#cbox{
+    background:url("over.png") repeat scroll 0 0 transparent;
+    cursor:pointer;
+    height:100%;
+    left:0;
+    position:fixed;
+    cursor:pointer;
+    top:0;
+    display: none;
+    width:100%;
+    z-index:99;
+}
+
+#cbox #loaddingbusy{
+    background:url(busyBg.png) no-repeat top left;
+    width:30px;
+    height:30px;
+    display: block;
+    position:fixed;
+}
+
+#cbox #loaddingbusy span{
+    background:url(busy.gif) no-repeat center center;
+    width:30px;
+    height:30px;
+    display: block;
+}
